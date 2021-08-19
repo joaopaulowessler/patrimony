@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.areaUsuario {
+    min-height: 60px;
+    background-color: #464c92;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 19px;
+}
+
+.areaUsuario span {
+    margin: 10px;
+}
+
+.areaDados {
+    flex: auto;
+    overflow: auto;
+}
+
+.cards {
+    min-height: 80px;
+    display: flex;
+    border-bottom: 1px solid #bebebe;
+}
+
+.cards span {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.areaBotoes {
+    min-height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botao {
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botao div:first-child {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 33%;
+    width: 100%;
+}
+
+.botao div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+}
+
+.botao img {
+    width: 30px;
+    height: 30px;
+}
+

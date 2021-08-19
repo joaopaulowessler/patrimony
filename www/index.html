@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+        <title>Patrimônio</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="areaUsuario">
+                <span>Olá, João</span>
+            </div>
+            <div class="areaDados">
+                <div class="cards">
+                    <span>Empréstimos</span>
+                </div>
+                <div class="cards">
+                    <span>Aplicação</span>
+                </div>
+                <div class="cards">
+                    <span>Arroz</span>
+                </div>
+            </div>
+            <div class="areaBotoes">
+                <div class="botao">
+                    <div>
+                        <span>Simulação</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-hand-holding-usd" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+                <div class="botao">
+                    <div>
+                        <span>Cotação</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-chart-line" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+                <div class="botao">
+                    <div>
+                        <span>Novo</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-plus-circle" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+                <div class="botao" onclick="sincronizar()">
+                    <div>
+                        <span>Sincronizar</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-sync-alt" style="font-size: 30px;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
