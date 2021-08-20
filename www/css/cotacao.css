@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.areaUsuario {
+    min-height: 60px;
+    background-color: #464c92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.areaUsuario i {
+    left: 15px;
+    position: absolute;
+}

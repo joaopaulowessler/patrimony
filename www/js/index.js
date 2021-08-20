@@ -15,3 +15,7 @@ function sincronizar() {
 
     alert(xmlHttp.responseText);
 }
+
+function cotacao() {
+    window.open("cotacao.html", "_self");
+}
